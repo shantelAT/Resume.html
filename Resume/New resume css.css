@@ -62,7 +62,6 @@ a:hover {
 	margin-top: 100px;
 	min-height: 450px;
 	background: url('ben-kolde-unsplash.jpg') ; /*10px -20px*/
-	background: linear-gradient(rgba(0,0,0,0.6)),(rgba(0,0,0,0.6)); 
 	background-size: cover ;
 	background-position: center;
 	background-attachment: fixed;
@@ -74,13 +73,6 @@ a:hover {
 	padding: 10px 30px 30px 30px; 
 	
 }
-
-#showcase img{
-border-radius: 50%;
-width:250px;
-border: 2px solid white;
-}
-
 
 #showcase h2{
 font-family: Comic Sans MS, Helvetica, sans-serif;
@@ -322,6 +314,15 @@ z-index: 1;
 	
  }
 
+ #bigbox h2{
+ 	text-align: center;
+ 	padding: 10px 10px 10px 10px;
+ 	margin: 10px 10px 25px 10px;
+}
+
+#bigbox h3{
+	text-align: center;
+}
   .box{
  	width: 40%;
 	height: 100%;
@@ -332,7 +333,48 @@ z-index: 1;
 
  }
 
+ /*-------------------- BOX 3--------------------------------*/
 
+.box3{
+ 	width: 30%;
+	height: 100%;
+	color: black;
+	border-radius: 40px;
+	/*background-color: #e74c3c;*/
+	background-image: 
+	
+ }
+ 
+#boxes .box3{
+ 	margin: 10px 10px 90px 10px ;
+ 	float: left;
+ 	width: 20%;
+ 	padding: 10px;
+ 	text-align:left;
+ 	border: 1px solid #e74c3c;
+ }
+
+/*-------------------- BOX 2--------------------------------*/
+
+ .box2{
+ 	width: 40%;
+	height: 100%;
+	color: black;
+	border-radius: 10px;
+	
+	background-color: #e74c3c;
+	
+
+ }
+#boxes .box2{
+ 	margin: 40px;
+ 	float: left;
+ 	width: 40%;
+ 	padding: 10px;
+ 	text-align:left;
+ }
+
+/*-------------------- BOX -------------------------------*/
  #boxes .box{
  	margin: 10px;
  	float: left;
@@ -374,5 +416,31 @@ footer li{
 
 
 
+/*----------------------------- SECOND PAGE ----------------------------------*/
 
 
+
+.Projects{
+	margin: 10px;
+	border-top: 3px solid #8d021f;
+	width: 98%;
+	padding-top: 100px;
+	padding-bottom:100px;
+	background-color:  #fbf9e6
+}
+.projrow{
+margin: 10px;
+padding: 10px;
+width: 80%;
+}
+
+.circle{
+
+float: left;
+}	 
+
+.projrow .circle img{
+	border-radius: 50%;
+width:250px;
+border: 2px solid white;
+}
