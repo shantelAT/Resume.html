@@ -78,7 +78,7 @@ a:hover {
 font-family: Comic Sans MS, Helvetica, sans-serif;
 	margin:30px 10px 10px 40px  ;
 	font-size: 40px;
-	color: white;
+	color: #8d021f;
 }
 
 /* -------------------------------- Body --------------------------------- */
@@ -178,7 +178,15 @@ font-family: Comic Sans MS, Helvetica, sans-serif;
 
 }
 
-.resume2{
+.projects{
+	margin-left: 20px;
+	margin-right: 10px;
+	border-top: 3px solid #8d021f;
+	width: 98%;
+
+}
+
+.contact{
 	margin-left: 20px;
 	margin-right: 10px;
 	border-top: 3px solid #8d021f;
@@ -303,6 +311,14 @@ z-index: 1;
 	font-weight: bold;
 }}*/
   
+/*-------------------- BOX -------------------------------*/
+ #boxes .box{
+ 	margin: 10px;
+ 	float: left;
+ 	width: 29%;
+ 	padding: 10px;
+ 	text-align:center;
+ }
 
   #bigbox{
  	width: 80%;
@@ -311,10 +327,12 @@ z-index: 1;
 	padding-bottom: 5px;
 	padding-top: 5px;
 
-	
- }
+}
+
+ 
 
  #bigbox h2{
+ 	font-family: Comic Sans MS, Helvetica, sans-serif;
  	text-align: center;
  	padding: 10px 10px 10px 10px;
  	margin: 10px 10px 25px 10px;
@@ -329,7 +347,7 @@ z-index: 1;
 	color: white;
 	border-top-right-radius: 50px;
 	border-bottom-left-radius: 50px;
-	border: 2px solid #e74c3c;
+	
 
  }
 
@@ -344,7 +362,7 @@ z-index: 1;
 	background-image: 
 	
  }
- 
+
 #boxes .box3{
  	margin: 10px 10px 90px 10px ;
  	float: left;
@@ -367,32 +385,60 @@ z-index: 1;
 
  }
 #boxes .box2{
- 	margin: 40px;
+ 	margin: 10px 10px 10px 50px ;
  	float: left;
  	width: 40%;
  	padding: 10px;
  	text-align:left;
  }
 
-/*-------------------- BOX -------------------------------*/
- #boxes .box{
- 	margin: 10px;
- 	float: left;
- 	width: 29%;
- 	padding: 10px;
- 	text-align:center;
+/*---------------------------BOX 4 --------------------------------------*/
+
+#bigbox4{
+ 	width: 80%;
+	margin: auto;
+	overflow: hidden;
+	padding-bottom: 5px;
+	padding-top: 5px;
+
  }
 
-#space{
-	padding: 2px;
-	margin: 2px;
-	background-color: #FBEEE6;
-	background-position: center;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: 10px 500px;
-}
-/* --------------------------- Footer --------------------------------- */
+ #bigbox4 h1{
+ 	text-align: center;
+ 	color: white;
+ 	font-family: Comic Sans MS, Helvetica, sans-serif;
+ }
+
+ #bigbox4 h2{
+ 	text-align: center;
+ 	color: white;
+
+ }
+
+ 
+ .box4{
+ 	width: 30%;
+	height: 100%;
+	color: white;
+	border-radius: 10px;
+	border: 1px solid #8d021f;
+ }
+
+.box4 p{
+ 	color: white;
+ 	text-align: center;
+ }
+
+#boxes .box4{
+ 	margin: 10px 10px 10px 50px ;
+ 	float: left;
+ 	width: 40%;
+ 	padding: 10px;
+ 	
+ }
+
+
+/* --------------------------- Footer --------------------------------- 
 
 footer a{
 	text-decoration: none;
@@ -412,35 +458,7 @@ footer li{
 	display: inline;
 	padding: 0px 10px 10px 10px
 
-}
+}*/
 
 
 
-/*----------------------------- SECOND PAGE ----------------------------------*/
-
-
-
-.Projects{
-	margin: 10px;
-	border-top: 3px solid #8d021f;
-	width: 98%;
-	padding-top: 100px;
-	padding-bottom:100px;
-	background-color:  #fbf9e6
-}
-.projrow{
-margin: 10px;
-padding: 10px;
-width: 80%;
-}
-
-.circle{
-
-float: left;
-}	 
-
-.projrow .circle img{
-	border-radius: 50%;
-width:250px;
-border: 2px solid white;
-}
