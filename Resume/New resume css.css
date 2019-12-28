@@ -52,6 +52,8 @@ a:hover {
     background-color: #8d021f;
     color: white;
     font-family: Comic Sans MS, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
@@ -175,7 +177,8 @@ font-family: Comic Sans MS, Helvetica, sans-serif;
 	margin-right: 10px;
 	border-top: 3px solid #8d021f;
 	width: 98%;
-
+	display: flex;
+    flex-wrap: wrap;
 }
 
 .projects{
@@ -183,7 +186,8 @@ font-family: Comic Sans MS, Helvetica, sans-serif;
 	margin-right: 10px;
 	border-top: 3px solid #8d021f;
 	width: 98%;
-
+	display: flex;
+    flex-wrap: wrap;
 }
 
 .contact{
