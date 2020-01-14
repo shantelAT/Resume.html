@@ -1,0 +1,81 @@
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>JS CrashCourse</title>
+        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    
+        <link rel="stylesheet" type="text/css" href="index.css">
+    
+    </head>
+    <body>
+    <section id="container1">
+        <div class="container1">
+            <h1> Challenge 1: Your Age in Days </h1>
+        </div>
+    <div class="btn1">
+    <button type="text" class="btn btn-primary" Onclick="daysOld()"> Click Me </button>
+    
+    <button type="text" class="btn btn-danger" Onclick="Dreset()"> Reset </button>
+    </div>
+    
+    <div id="container1-1">
+            <h2 id="daysOld"> </h2>
+        </div>
+ <!---------------------- CHALLENGE 2 STARTS HERE ------------------------------>  
+
+        <div class="container2">
+            <h1> Challenge 2: Generate Emoji </h1>
+        
+    
+    <button type="text" class="btn btn-success" onclick="IconGen()"> Generate Me </button>
+    <button type="text" class="btn btn-danger" onclick="Ireset()"> Reset </button>
+        
+</div>
+
+    <div id="container2-1" >
+                
+    </div>
+
+    <!---------------------- CHALLENGE 3 STARTS HERE ------------------------------>  
+
+    <div class="container3">
+        <h1> Challenge 3: Rock, Paper, Scissors </h1>
+    
+</div>
+
+<div id="container3-1" >
+<img id="rock" src="rock.png" height="150px"  onclick="rpsGame(this)" >
+<img id="paper" src="paper.png" height="150px"  onclick="rpsGame(this)" >
+<img id="scissors" src="scissors.png" height="150px" onclick="rpsGame(this)" >
+</div>
+  
+
+<!---------------------- CHALLENGE 4 STARTS HERE ------------------------------> 
+
+<div class="container4">
+    <h1 id="cha4"> Challenge 4: Change button Colors </h1>
+</div>
+<div id="container4-1" >
+    <form action="">
+        <select name="backdrop" id="background" onchange="changeColor(this)">
+            <option value='random'>RANDOM</option>
+            <option value='blue'>BLUE</option>
+            <option value='green' >GREEN</option>
+            <option value='red'>RED</option>
+            <option value='reset'>RESET</option>
+        </select>
+    </form>
+
+    <button type="text" class="btn btn-primary" > BLUE </button>
+    <button type="text" class="btn btn-success" > GREEN </button>
+    <button type="text" class="btn btn-danger" > RED </button>
+    <button type="text" class="btn btn-warning" > YELLOW </button>
+</div>
+
+
+    <script src="index.js"></script>
+    </body>
+    </html>

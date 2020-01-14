@@ -1,0 +1,84 @@
+#container1{
+    padding: 10px;
+    margin: 100px ;
+    
+    text-align: center;
+    
+}
+.container1{
+	padding: 10px;
+	 border:  1px solid black;
+}
+
+#container1-1{
+	padding: 15px;
+	 border: 1px solid black;
+}
+
+.btn1{
+	padding: 10px;
+ border: 1px solid black;
+}
+/* ------------------------ CHALLENGE 2 ------------------------*/
+.container2{
+	padding: 10px;
+	 border:  1px solid black;
+}
+
+#container2-1{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+	 border:  1px solid black;
+	 align-items: center;
+	 justify-content: space-around;
+}
+#container2-1 img{
+	margin: 10px ;
+	box-shadow:0px 5px 10px black;
+
+}
+
+.btn3{
+	border-radius: 10px;
+	background-color: green;
+	padding: 10px;
+	color: white;
+}
+
+/* ------------------------ CHALLENGE 3 ------------------------*/
+.container3{
+	padding: 10px;
+	 border:  1px solid black;
+}
+
+#container3-1 {
+border:  1px solid black;
+
+}
+
+#container3-1 img{
+	margin: 10px 10px 40px 10px ;
+	box-shadow:0px 5px 10px black;
+
+}
+
+#container3-1 img:hover{
+	box-shadow:0px 10px 50px blue;
+	
+}
+
+/* ------------------------ CHALLENGE 4 ------------------------*/
+.container4{
+	padding: 10px;
+	 border:  1px solid black;
+}
+
+#container4-1 {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 30px 10px 80px 10px;
+	 border:  1px solid black;
+	 align-items: center;
+	 justify-content: space-around;
+	}
