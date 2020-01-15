@@ -77,7 +77,7 @@ a:hover {
 
 #showcase h2{
 font-family: Comic Sans MS, Helvetica, sans-serif;
-	margin:30px 10px 10px 40px  ;
+	margin:80px 10px 10px 40px  ;
 	font-size: 40px;
 	color: #8d021f;
 }
@@ -427,7 +427,8 @@ box-shadow:0px 5px 10px black;
 	height: 100%;
 	color: white;
 	border-radius: 10px;
-	border: 1px solid #8d021f;
+	border: 2px solid #8d021f;
+	 background: none;
  }
 
 .box4 p{
