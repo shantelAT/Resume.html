@@ -415,7 +415,7 @@ box-shadow:0px 5px 10px black;
  	font-family: Comic Sans MS, Helvetica, sans-serif;
  }
 
- #bigbox4 h2{
+ #bigbox4 h3{
  	text-align: center;
  	color: white;
 
@@ -431,7 +431,7 @@ box-shadow:0px 5px 10px black;
 	 background: none;
  }
 
-.box4 p{
+.box4 {
  	color: white;
  	text-align: center;
  }
