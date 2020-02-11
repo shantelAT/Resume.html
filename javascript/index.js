@@ -1,36 +1,7 @@
-//Chanllege 1
-function daysOld(){
-    
-var years = prompt ("What is your year of birth?");
-var days = (2019 - years) * 365; 
-var text = "You are " + days + " " +  " days old!";
- 
-  document.getElementById("daysOld").innerHTML = text; 
-    
-}
-
 function Dreset(){
-    var ntn = " ";
-    document.getElementById("daysOld").innerHTML = ntn;
+   window.location.reload();
 }
 
-// Challenge 2 
-
- function IconGen(){
-   var img = document.createElement("img");
-
-   img.src="icon.png";
-    var src = document.getElementById("container2-1");
-    
-    src.appendChild(img);
- }
-
- function Ireset(){
-    var ntn = " ";
-    document.getElementById("container2-1").innerHTML = ntn;
-}
- 
-// ---------------------- Challenge 3
 
 function rpsGame(yourChoice){
 console.log(yourChoice);
@@ -78,7 +49,7 @@ function finalMessage([yourScore, computerScore]){
   } else  if ( yourScore === 0.5 ){
   return {'message': " You Tied!", 'color' : 'yellow'};
 } else { 
-  return {'message': "You Won!", 'color' : 'green'};
+  return {'message': "You Won!", 'color' : 'white'};
 }
 }
 
@@ -111,68 +82,4 @@ document.getElementById('container3-1').appendChild(humanDiv);
 document.getElementById('container3-1').appendChild(messageDiv);
 document.getElementById('container3-1').appendChild(botDiv);
 
-}
-
-//----------------------- CHALLENGE 4
-
-var eachButton = document.getElementsByTagName('button');
-
-var copyButtons = [];
-for( let i = 0; i< eachButton.length; i++){
-  copyButtons.push(eachButton[i].classList[1]);
-}
-
-function changeColor(button){
- if (button.value === 'random'){
-  randomColor();
-}else if (button.value === 'blue'){
-  buttonBlue();
-}else if (button.value === 'red'){
-   buttonRed();
- } else if (button.value === 'green'){
-   buttonGreen();
- } else if (button.value === 'reset'){ 
-    buttonReset();
- }
-   
-}
-
-function buttonBlue(){
-  for (let i =0; i<eachButton.length; i++){
-    eachButton[i].classList.remove(eachButton[i].classList[1]);
-    eachButton[i].classList.add('btn-primary');
-  }
-}
-
-function buttonRed(){
-  for (let i =0; i<eachButton.length; i++){
-    eachButton[i].classList.remove(eachButton[i].classList[1]);
-    eachButton[i].classList.add('btn-danger');
-  }
-}
-
-function buttonGreen(){
-  for (let i =0; i<eachButton.length; i++){
-    eachButton[i].classList.remove(eachButton[i].classList[1]);
-    eachButton[i].classList.add('btn-success');
-  }
-}
-
-function buttonReset(){
-  for (let i =0; i<eachButton.length; i++){
-    eachButton[i].classList.remove(eachButton[i].classList[1]);
-    eachButton[i].classList.add(copyButtons[i]);
-  }
-}
-
-
-function randomColor(){
-  var choice = ['btn-danger', 'btn-primary', 'btn-success', 'btn-warning'];
-  
-  for (let i =0; i<eachButton.length; i++){
-    eachButton[i].classList.remove(eachButton[i].classList[1]);
-    eachButton[i].classList.add(choice[Math.floor(Math.random() * 4)])
-  
- //console.log ('ans');
-  }
 }
